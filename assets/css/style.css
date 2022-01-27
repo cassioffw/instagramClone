@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #fafafa;
+
+}
+header{
+    border-bottom: 1px solid #DBDBDB;
+}
+header, header div, header img{
+    background-color: white;
+}
+.container{
+    width: 950px;
+    height: 65px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 110px;
+}
+.input input{
+    padding: 10px 30px; 
+    outline: none;
+    width: 250px;
+    border-radius: 7px;
+    border: none;
+    background-color: #EFEFEF;
+    font-size: 15px;
+    font-weight: 300;
+}
+.icons img{
+    width: 22px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icons img:last-child{
+    margin-right: 0;
+}
+section{
+    width: 100%;
+    height: 100%;
+}
+.profile-info .container-main{
+    width: 950px;
+    display: flex;
+    border-bottom:1px solid #DBDBDB;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: center;
+}
+.profile-text{
+    margin-top: 30px;
+}
+.nick-and-buttons{
+    display: flex;
+    margin-bottom: 20px;
+}
+.nick-and-buttons span, .nick-and-buttons button, .nick-and-buttons img{
+    margin-right: 15px;
+} 
+.nick-and-buttons span{
+    font-size: 25px;
+    font-weight: 300;
+}
+.nick-and-buttons button{
+    padding: 3px;
+    width: 90px;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.nick-and-buttons img{
+    width: 26px;
+    height: 26px;
+    margin:auto;
+}
+.container .profile-avatar{
+    margin-left: -300px;
+    margin-top: 20px;
+}
+.profile-info .profile-avatar{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    margin-left: -200px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.info{
+    margin-bottom: 20px;
+}
+.info .geral{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.strong{
+    font-weight: 600;
+}
+.name-and-bio .geral{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.name-and-bio{
+    margin-bottom: 40px;
+}
+.timeline .container{
+    flex-direction: column;
+    height: auto;
+}
+.container .menus{
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+}
+.menus a{
+    text-decoration: none;
+    margin-left: 60px;
+    padding-top: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #949494;
+}
+.menus a img{
+    width: 16px;
+    margin-right: 10px;
+}
+.menus .active{
+    border-top: 1px solid black;
+    color: black;
+}
+.photos img{
+    margin-top: 25px;
+    width: 283px;
+    height: 283px;
+    margin-right: 30px;
+}
+.container-photos{
+    width: 950px;
+    margin: auto;
+}
+footer{
+    margin-bottom: 30px;
+}
+.container-footer{
+    width: 950px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.footer1 a, .footer2 a{
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.footer2{
+    margin-top: 20px;
+}
